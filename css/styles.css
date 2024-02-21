@@ -143,10 +143,14 @@ h2{
     color: var(--accent-color);
 }
 
+.icon-contact{
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 
 
-.link.icon-mail::before{
+/* .link.icon-mail::before{
     content: "";
     width: 16px;
     height: 12px;
@@ -168,13 +172,23 @@ h2{
     background-image: url(../images/smartphone.svg);
     background-size: contain;
  
-}
+} */
 
 /* Hero */
 
 .hero{
     background-color: var(--bg-color);
+    
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8) ), url("../images/background.jpg");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1600px;
+    height: 600px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .hero-title{
@@ -185,6 +199,7 @@ h2{
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    padding-top: 200px;
 }
 
 .hero > .button{
@@ -200,6 +215,7 @@ h2{
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    margin-top: 30px;
 }
 
 /* Features */
